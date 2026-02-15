@@ -60,8 +60,8 @@ public class HDBColumnStoreManager {
                 if (monthRaw != null && monthRaw.contains("-")) {
                     String[] parts = monthRaw.split("-");
                     if (parts.length == 2) {
-                        year = parts[0]; 
-                        monthNum = parts[1];
+                        year = parts[1]; 
+                        monthNum = parts[0];
                     }
                 }
 
